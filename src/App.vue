@@ -28,4 +28,12 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.curso-main-container > .container
+  overflow-y: clip
+@media (min-width: 1400px)
+  .banner-principal__info
+    width: 55%
+    h1,p
+      color: black !important
+</style>

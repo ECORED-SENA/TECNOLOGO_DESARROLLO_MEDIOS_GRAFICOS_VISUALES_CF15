@@ -1,8 +1,13 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Posproducción Epub',
+    descripcionCurso: `Mediante este componente el aprendiz estará más y mejor capacitado en lo 
+      relativo a la posproducción Epub, fase clave de ajustes y correcciones 
+      previos a la publicación del producto digital. Asimismo, afianzará su saber y 
+      habilidades para el control de calidad de productos hacia el usuario, 
+      generación de documentos, validación de archivos Epub, publicación de
+      contenidos, entre otras.`,
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -22,13 +27,13 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Posproducción',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Generación de documentos',
             hash: 't_1_1',
           },
         ],
@@ -45,7 +50,49 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Formatos de archivo y aplicabilidad',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Rutinas de comprobación de errores',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Visualización y validación de los archivos Epub',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Diagnóstico y corrección de funcionamiento',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema7',
+        icono: 'far fa-file-alt',
+        numero: '7',
+        titulo: 'Exportación y salida de archivos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema8',
+        icono: 'far fa-file-alt',
+        numero: '8',
+        titulo: 'Modelos de negocio para publicaciones digitales',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema9',
+        icono: 'far fa-file-alt',
+        numero: '9',
+        titulo: 'Modelos de negocio para publicaciones digitales',
         desarrolloContenidos: true,
       },
     ],
