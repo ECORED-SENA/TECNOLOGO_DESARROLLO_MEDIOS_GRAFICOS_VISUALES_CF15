@@ -9,7 +9,7 @@
     
     .col-12.d-flex.flex-wrap
       .col-12.col-md-5
-        img(src="@/assets/curso/tema3/img_t_3-1.png")
+        img(src="@/assets/curso/tema3/img_t_3-1.png" data-aos="zoom-in-up")
       .col-12.col-md-6.ms-auto
         p.pt-4 Analizando la publicación de elementos digitales se puede resumir que, para un usuario, será irrelevante el formato en que se encuentre este producto, es decir, pueden estar en formato Epub o el formato Mobi. Si bien es cierto que es diferente leer un libro en formato PDF porque  posee una variedad de ventajas como, por ejemplo, la configuración de tipo de fuentes, su tamaño o también el ajuste del texto en pantalla. 
           br
@@ -49,12 +49,12 @@
         div(x="50%" y="0%" tooltip="tooltip de max 35 caracteres" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-3.png")
-            p.ms-auto(style="max-width: 415px") Formato de archivo de libro electrónico; usa extensión .epub Compatible con varios lectores de libros electrónicos. Hay software compatible para la diversidad de dispositivos inteligentes, tablets y computadoras. Para una correcta lectura de un producto como e-book en cualquier dispositivo, este formato es el más adecuado. La mayoría de tiendas de e-books exigen que estos estén en el formato epub.
+            p.ms-auto(style="max-width: 415px") Formato de archivo de libro electrónico; usa extensión .epub Compatible con varios lectores de libros electrónicos. Hay <em>software</em> compatible para la diversidad de dispositivos inteligentes, tablets y computadoras. Para una correcta lectura de un producto como <em>e-book</em> en cualquier dispositivo, este formato es el más adecuado. La mayoría de tiendas de <em>e-books</em> exigen que estos estén en el formato epub.
 
         div(x="85%" y="15%" tooltip="tooltip de max 35 caracteres" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-4.png")
-            p.ms-auto(style="max-width: 415px") Formato para archivos de libros electrónicos (ebook) creados por Mobipocket SA. El contenido está etiquetado, pero su formato no está dividido, lo que es adecuado para diferentes tamaños de pantalla de muchos lectores electrónicos del mercado. Este formato se basa en las especificaciones de Open eBook. Admite protección DRM, aunque Mobipocket SA prohíbe que los dispositivos de reproducción dedicados que permiten su sistema DRM admitan cualquier otro sistema DRM. El archivo mobipocket termina con la extensión “.mobi”.
+            p.ms-auto(style="max-width: 415px") Formato para archivos de libros electrónicos (<em>ebook</em>) creados por Mobipocket SA. El contenido está etiquetado, pero su formato no está dividido, lo que es adecuado para diferentes tamaños de pantalla de muchos lectores electrónicos del mercado. Este formato se basa en las especificaciones de Open eBook. Admite protección DRM, aunque Mobipocket SA prohíbe que los dispositivos de reproducción dedicados que permiten su sistema DRM admitan cualquier otro sistema DRM. El archivo mobipocket termina con la extensión “.mobi”.
 
         div(x="100%" y="50%" tooltip="tooltip de max 35 caracteres" numero="")
           .container-card-infografia
@@ -64,7 +64,7 @@
         div(x="85%" y="85%" tooltip="tooltip de max 35 caracteres" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-2.png")
-            p.ms-auto(style="max-width: 415px") Abreviatura de Comic Book Reader. Se usa para cualquier libro cuyo contenido sea principalmente imágenes. Es un contenedor comprimido para imágenes. R significa que es RAR, mientras que Z significa que está comprimido. Los archivos CBR terminan con “.cbr” y los archivos CBZ terminan con “.cbz”.
+            p.ms-auto(style="max-width: 415px") Abreviatura de <em>Comic Book Reader</em>. Se usa para cualquier libro cuyo contenido sea principalmente imágenes. Es un contenedor comprimido para imágenes. R significa que es RAR, mientras que Z significa que está comprimido. Los archivos CBR terminan con “.cbr” y los archivos CBZ terminan con “.cbz”.
         
         div(x="50%" y="100%" tooltip="tooltip de max 35 caracteres" numero="")
           .container-card-infografia
@@ -74,7 +74,7 @@
         div(x="15%" y="85%" tooltip="tooltip de max 35 caracteres" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-6.png")
-            p.ms-auto(style="max-width: 415px") <b>FictionBook</b> es un formato de archivo abierto para libros electrónicos creado por un equipo de desarrolladores rusos. Los archivos de formato FictionBook usan la extensión “.fb2”, aunque los archivos FictionBook generalmente se distribuyen en archivos Zip, y la mayoría de los dispositivos y controladores pueden manejar archivos FictionBook comprimidos directamente (“* .fb2.zip”).
+            p.ms-auto(style="max-width: 415px") <b>FictionBook</b> es un formato de archivo abierto para libros electrónicos creado por un equipo de desarrolladores rusos. Los archivos de formato FictionBook usan la extensión “.fb2”, aunque los archivos FictionBook generalmente se distribuyen en archivos Zip, y la mayoría de los dispositivos y controladores pueden manejar archivos <em>FictionBook</em> comprimidos directamente (“* .fb2.zip”).
         
         div(x="0%" y="50%" tooltip="tooltip de max 35 caracteres" numero="")
           .container-card-infografia

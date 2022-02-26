@@ -28,7 +28,7 @@
           div
             .lista-ol--cuadro__vineta.mb-3
               span.fw-bold 01
-          p Analizar el estado de la publicación Epub. A menudo ocurren los mismos errores que con la herramienta de verificación en línea. Epub podría anunciar automáticamente que el archivo tiene un error. Se recomienda realizar una verificación en línea y detallar los errores obtenidos con el Epub Checker.
+          p Analizar el estado de la publicación Epub. A menudo ocurren los mismos errores que con la herramienta de verificación en línea. Epub podría anunciar automáticamente que el archivo tiene un error. Se recomienda realizar una verificación en línea y detallar los errores obtenidos con el <em>Epub Checker</em>.
 
       .tarjeta.p-4.h-100(style="background-color: #FFF4C660")
         .row.justify-content-center.mb-3

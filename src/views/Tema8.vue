@@ -9,9 +9,9 @@
     
     .col-12.d-flex.flex-wrap.mb-5
       .col-12.col-md-5
-        p.mb-4.mb-md-0 En la actualidad existen varias opciones para la creación de objetos digitales, publicación, elección de producto, formatos o softwares y, desde luego, varias opciones para su comercialización. El proceso de ingeniería específico para crear un producto digital determina las oportunidades de negocio o el trabajo que se debe realizar para alcanzarlas. 
+        p.mb-4.mb-md-0 En la actualidad existen varias opciones para la creación de objetos digitales, publicación, elección de producto, formatos o <em>softwares</em> y, desde luego, varias opciones para su comercialización. El proceso de ingeniería específico para crear un producto digital determina las oportunidades de negocio o el trabajo que se debe realizar para alcanzarlas. 
       .col-12.col-md-7
-        .p-4.mb-4.h-100.d-flex.align-items-center(style="background-color: #B1F7FD")
+        .p-4.mb-4.h-100.d-flex.align-items-center(style="background-color: #B1F7FD" data-aos="zoom-in-up")
           p.mb-0 Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
     
     img(src="@/assets/curso/tema8/img_t_8-1.png" data-aos="zoom-in-up").mb-5
@@ -87,9 +87,9 @@
 
             td(style="background-color: #FFF4C6")
               ul(style="list-style-type: disc; margin-left: 1.1rem").px-4.px-5.py-4
-                li Freemium/premium
+                li <em>Freemium/premium</em>
                 li Actualización permanente
-                li Open Acces / Pay what you want
+                li <em>Open Acces / Pay what you want</em>
                 li Financiación colectiva
                 li Contenidos parciales
                 li Contenidos personalizados
@@ -98,7 +98,7 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
 </template>
 <script>

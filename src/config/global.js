@@ -2,10 +2,10 @@ export default {
   global: {
     componenteFormativo: 'Posproducción Epub',
     descripcionCurso: `Mediante este componente el aprendiz estará más y mejor capacitado en lo 
-      relativo a la posproducción Epub, fase clave de ajustes y correcciones 
+      relativo a la posproducción <em><b>Epub</b></em>, fase clave de ajustes y correcciones 
       previos a la publicación del producto digital. Asimismo, afianzará su saber y 
       habilidades para el control de calidad de productos hacia el usuario, 
-      generación de documentos, validación de archivos Epub, publicación de
+      generación de documentos, validación de archivos <em><b>Epub</b></em>, publicación de
       contenidos, entre otras.`,
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
@@ -29,14 +29,6 @@ export default {
         numero: '1',
         titulo: 'Posproducción',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Generación de documentos',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
@@ -138,26 +130,113 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Adell, F. & Casacuberta, D. (2020). Plataformas para la publicación digital editorial. OUC.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://disseny.recursos.uoc.edu/materials/prod-digital/es/8-3-plataformas-para-publicar-y-vender-revistas-digitales/',
+    },
+    {
+      referencia: 'Adobe. (2021). Exportación de contenido a EPUB. Helpxadobe.',
+      link:
+        'https://helpx.adobe.com/es/indesign/using/export-content-epub-cc.html',
+    },
+    {
+      referencia:
+        'Alonso, J. & Cordón, J. (2010). ¿Qué son, para qué sirven y cómo funcionan los DRM? Universoabierto.',
+      link:
+        'https://universoabierto.org/2016/01/29/que-son-para-que-sirve-y-como-funcionan-los-drm/',
+    },
+    {
+      referencia:
+        'Benito, I. (2014). ¿Cómo podemos solucionar los errores de un archivo ePub? Algoentremanos.',
+      link:
+        'https://algoentremanos.com/como-podemos-solucionar-los-errores-de-un-archivo-epub/',
+    },
+    {
+      referencia:
+        'Data 2 Check. (2018.) Documentación data2check - EpubCheck. Data2check.',
+      link: 'https://www.data2check.de/es/documentation/epubcheck.html',
+    },
+    {
+      referencia: 'DigitalBe. (2012). ¿Qué es? ¿Para qué sirve? Digitalbe.',
+      link: 'https://digitalbe.com/2012/09/27/idpf-que-es-para-que-sirve/',
+    },
+    {
+      referencia:
+        'Ediciones eni. (2020.) Modificar el espacio entre caracteres. Ediciones-eni.',
+      link:
+        'https://www.ediciones-eni.com/open/mediabook.aspx?idR=efeba53cc3003f4b2d3428f3d73cfe34',
+    },
+    {
+      referencia:
+        'Gestión MaquetadordeLibros. (2021). Validar archivos EPUB. Maquetadordelibros.',
+      link: 'https://maquetadordelibros.es/validar-archivos-epub/',
+    },
+    {
+      referencia:
+        'Nousmedis. (2020). Creación de libros electrónicos en formato EPUB con InDesign CS4. Nousmedis.',
+      link:
+        'https://nousmedis.com/2010/01/creacion-de-libros-electronicos-en-formato-epub-con-indesign-cs4/',
+    },
+    {
+      referencia:
+        'Núñez, L. (2019). Qué son las fuentes opentype. Enfoquegaussiano.',
+      link: 'https://www.enfoquegaussiano.com/que-son-las-fuentes-opentype/',
+    },
+    {
+      referencia:
+        'Reviversoft. (2021). EPUB Extensión del archivo. Reviversoft.',
+      link: 'https://www.reviversoft.com/es/file-extensions/epub',
+    },
+    {
+      referencia: 'Sinjania. (2021). El formato epub. Sinjania.',
+      link:
+        'https://www.sinjania.com/el-formato-epub/#:~:text=Epub%20es%20el%20acr%C3%B3nimo%20de,de%20lectura%20como%20los%20ebooks.',
+    },
+    {
+      referencia:
+        'Vazquez, V. (2021). ¿Qué es Calibre? – Crea y distribuye tu libro digital. Digital.editorial.',
+      link: 'https://digital-editorial.com/que-es-calibre/',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: '<b>Calibre</b>',
+      significado:
+        'Calibre es un <em>software</em> gratuito para Mac, Windows y Linux que permite hacer todo lo relacionado con <em>eBooks</em>, excepto crearlos. (Vázquez, 2021).',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: '<b>DRM</b>',
+      significado:
+        'Esta es una tecnología muy utilizada en la industria del libro electrónico, y no muchos autores y usuarios saben cómo funcionan los sistemas de gestión de derechos de autor (Arévalo y Cordón, 2010).',
+    },
+    {
+      termino: '<b>Epub Checker</b>',
+      significado:
+        'Es el método más adecuado para probar la validez y conformidad de los documentos en formato EPUB, es una biblioteca Java de fuente abierta (Data2Check, 2018).',
+    },
+    {
+      termino: '<b>IDPF</b>',
+      significado:
+        'El Foro Internacional de Publicaciones Digitales es la organización que establece estándares y la fuerza impulsora de la industria editorial digital. El objetivo de IDPF es establecer un estándar completo y confiable para la publicación de libros digitales, responsable del estándar llamado Epub (DigitalBe, 2012).',
+    },
+    {
+      termino: '<em><b>Kerning</b></em>',
+      significado:
+        'Es el proceso de aumentar o disminuir el espacio entre pares de caracteres. La unidad es una milésima de un cuarto e InDesign tiene el valor predeterminado de 20/1000 de un cuarto. InDesign (Mac) o Editar (PC) - Preferencias - Unidades e incrementos. En el área Incremento del teclado, cambie el campo <em>Kerning / Tracking.</em>',
+    },
+    {
+      termino: '<em><b>Open type</b></em>',
+      significado:
+        'Es la solución a una fuente que contiene las letras, números y diacríticos habituales, además cuenta con un amplio catálogo de trazos especiales, ligaduras, minúsculas e incluso tablas, caracteres diferentes a las habituales letras del latín occidental. (Nuñez, 2019).',
     },
   ],
   complementario: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
+      texto:
+        'Generación de documentos, formatos de archivo y aplicabilidad, diagnóstico y corrección de funcionamiento, exportación y salida de archivos',
+      tipo: 'Artículo',
+      link:
+        'https://www.accessibletextbooksforall.org/es/historias/epub-herramientas-y-lectores-de-autor%C3%ADa',
     },
     {
       texto: 'Nombre del material',

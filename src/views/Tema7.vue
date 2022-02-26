@@ -9,7 +9,7 @@
     
     .col-12.d-flex.flex-wrap
       .col-12.col-md-8.pe-0.pe-md-4.mb-4
-        p Los documentos se pueden crear como Epub reiniciable. El Epub reiniciable es utilizado por los usuarios de Epub para mejorar el contenido, de acuerdo con sus dispositivos de visualización. El formato reiniciable es más conveniente, si el documento está destinado a dispositivos de tinta electrónica.
+        p Los documentos se pueden crear como <b>Epub</b> reiniciable. El Epub reiniciable es utilizado por los usuarios de Epub para mejorar el contenido, de acuerdo con sus dispositivos de visualización. El formato reiniciable es más conveniente, si el documento está destinado a dispositivos de tinta electrónica.
       .col-12.col-md-4
         p.fw-bold Se debe usar si se desea facilitar las opciones para cambio de fuente y tamaño del texto en el reproductor.
     
@@ -38,7 +38,7 @@
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema7/img_t_7-3.png')})`, 'background-size':'auto', 'background-repeat':'no-repeat', 'background-color':'#FDD835'}")
             .tarjeta-slide__contenido.p-4.p-xl-5
               img(src="@/assets/curso/tema7/img_t_7-3.png", style="max-width: 107px; margin-right: auto; margin-left: auto").mb-3
-              p.mb-0 Este formato es el más adecuado para libros para niños, libros de cocina, libros de texto y cómics.
+              p.mb-0 Este formato es el más adecuado para libros para niños, libros de cocina, libros de texto y <em>cómics</em>.
 
     p.mb-5 Conozca algunos aspectos de suma importancia en lo relativo a exportación y salida de archivos; procure llevar registro de lo más destacado en su libreta personal de apuntes.
 
@@ -76,7 +76,7 @@ export default {
         titulo: 'Limitaciones para exportación Epub',
         texto: `<ul style="list-style-type: disc; margin-left: 1.1rem">
             <li>El interletraje no se puede usar en un solo glifo y se distribuye como espaciado en todas las letras de la palabra.</li>
-            <li>Debido a su baja compatibilidad con dispositivos, no es posible utilizar alternativas a los pictogramas creados con OpenType, incluidas minúsculas, mayúsculas y minúsculas fraccionarias.</li>
+            <li>Debido a su baja compatibilidad con dispositivos, no es posible utilizar alternativas a los pictogramas creados con <em>OpenType</em>, incluidas minúsculas, mayúsculas y minúsculas fraccionarias.</li>
             <li>Los marcos de texto de derecha a izquierda no son totalmente compatibles con las escrituras de Oriente Medio.</li>
           </ul>
           `,

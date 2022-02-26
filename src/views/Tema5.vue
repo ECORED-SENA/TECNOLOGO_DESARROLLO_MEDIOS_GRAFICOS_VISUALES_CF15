@@ -40,10 +40,10 @@
             div.ps-0.ps-md-5
               p Algunos programas que realizan el proceso de validación son:
               <ul style="list-style-type: disc;">
-                <li> EpubCheck, este es el oficial de la IDPF</li>
-                <li> EpubValidator, es la versión online funciona hasta 10mb.</li>
-                <li> Flightcrew, este programa es desarrollado por Google</li>
-                <li> Además, varios de los editores de epub, como sigil, tiene esta función</li>
+                <li> <b>EpubCheck</b>, este es el oficial de la IDPF</li>
+                <li> <b>EpubValidator</b>, es la versión online funciona hasta 10mb.</li>
+                <li> <b>Flightcrew</b>, este programa es desarrollado por Google</li>
+                <li> <b>Además</b>, varios de los editores de epub, como sigil, tiene esta función</li>
               </ul>
 
       div(titulo="Primer paso")
