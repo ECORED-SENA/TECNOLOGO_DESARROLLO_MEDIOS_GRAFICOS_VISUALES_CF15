@@ -41,42 +41,42 @@
           figure
             img(src='@/assets/curso/tema3/img_t_3-2.png')
 
-        div(x="15%" y="15%" tooltip="tooltip de max 35 caracteres" numero="")
+        div(x="15%" y="15%" tooltip="" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-8.png")
             p.ms-auto(style="max-width: 415px") Formato de texto enriquecido. Mensaje. Es el formato de texto sin formato más simple; no admite estilos de texto e imagen.
 
-        div(x="50%" y="0%" tooltip="tooltip de max 35 caracteres" numero="")
+        div(x="50%" y="0%" tooltip="Clici para ver más" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-3.png")
             p.ms-auto(style="max-width: 415px") Formato de archivo de libro electrónico; usa extensión .epub Compatible con varios lectores de libros electrónicos. Hay <em>software</em> compatible para la diversidad de dispositivos inteligentes, tablets y computadoras. Para una correcta lectura de un producto como <em>e-book</em> en cualquier dispositivo, este formato es el más adecuado. La mayoría de tiendas de <em>e-books</em> exigen que estos estén en el formato epub.
 
-        div(x="85%" y="15%" tooltip="tooltip de max 35 caracteres" numero="")
+        div(x="85%" y="15%" tooltip="Clici para ver más" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-4.png")
             p.ms-auto(style="max-width: 415px") Formato para archivos de libros electrónicos (<em>ebook</em>) creados por Mobipocket SA. El contenido está etiquetado, pero su formato no está dividido, lo que es adecuado para diferentes tamaños de pantalla de muchos lectores electrónicos del mercado. Este formato se basa en las especificaciones de Open eBook. Admite protección DRM, aunque Mobipocket SA prohíbe que los dispositivos de reproducción dedicados que permiten su sistema DRM admitan cualquier otro sistema DRM. El archivo mobipocket termina con la extensión “.mobi”.
 
-        div(x="100%" y="50%" tooltip="tooltip de max 35 caracteres" numero="")
+        div(x="100%" y="50%" tooltip="Clici para ver más" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-5.png")
             p.ms-auto(style="max-width: 415px") Se utiliza para cualquier documento digital y también para libros electrónicos. Sus ventajas incluyen la portabilidad y la estandarización ISO. Esta es la forma más utilizada debido a su facilidad de uso. Un inconveniente es que no se puede migrar, como Mobipocket o el EPUB estándar. Los archivos PDF terminan con la extensión “.pdf”.
 
-        div(x="85%" y="85%" tooltip="tooltip de max 35 caracteres" numero="")
+        div(x="85%" y="85%" tooltip="Clici para ver más" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-2.png")
             p.ms-auto(style="max-width: 415px") Abreviatura de <em>Comic Book Reader</em>. Se usa para cualquier libro cuyo contenido sea principalmente imágenes. Es un contenedor comprimido para imágenes. R significa que es RAR, mientras que Z significa que está comprimido. Los archivos CBR terminan con “.cbr” y los archivos CBZ terminan con “.cbz”.
         
-        div(x="50%" y="100%" tooltip="tooltip de max 35 caracteres" numero="")
+        div(x="50%" y="100%" tooltip="Clici para ver más" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-1.png")
             p.ms-auto(style="max-width: 415px") Formato de libro electrónico desarrollado por Amazon. Compatible con todos los dispositivos Amazon Kindle, teléfonos inteligentes y tabletas Android, iPhone y iPad. Bajo la misma extensión, existen dos versiones diferentes del formato: KF7 y KF8. La extensión AZW se utiliza en archivos de libros electrónicos protegidos por DRM y no protegidos por DRM. Los archivos AZW con DRM sólo se pueden obtener de Amazon, ya que la protección es propietaria y no se ha transferido a otras empresas. 
 
-        div(x="15%" y="85%" tooltip="tooltip de max 35 caracteres" numero="")
+        div(x="15%" y="85%" tooltip="Clici para ver más" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-6.png")
             p.ms-auto(style="max-width: 415px") <b>FictionBook</b> es un formato de archivo abierto para libros electrónicos creado por un equipo de desarrolladores rusos. Los archivos de formato FictionBook usan la extensión “.fb2”, aunque los archivos FictionBook generalmente se distribuyen en archivos Zip, y la mayoría de los dispositivos y controladores pueden manejar archivos <em>FictionBook</em> comprimidos directamente (“* .fb2.zip”).
         
-        div(x="0%" y="50%" tooltip="tooltip de max 35 caracteres" numero="")
+        div(x="0%" y="50%" tooltip="Clici para ver más" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-7.png")
             p.ms-auto(style="max-width: 415px") Formato de Microsoft Word. El conocido lenguaje de marcas utilizado para crear sitios web también es adecuado para ver libros digitales. Muchos libros sin derechos de autor se han publicado en Internet en este formato.

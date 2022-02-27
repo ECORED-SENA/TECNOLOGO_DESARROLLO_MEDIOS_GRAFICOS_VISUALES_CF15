@@ -8,7 +8,8 @@
       h1 Generación de documentos
 
     .col-12.d-flex.flex-wrap.mb-5
-      .col-12.col-md-6.d-flex.flex-wrap
+      .col-12.col-md-6.d-flex.flex-wrap.indicador__container(@mouseover="indicadort1 = false")
+        .indicador--click(v-if="indicadort1" style="left: 80%; top: 10%")
         p El proceso de generación de documentos se puede realizar con algunas herramientas informáticas que brindan varias opciones al usuario; 
           span(style="font-weight: bold; color: #F57C00; cursor: pointer;" @click="modal1 = true") un gran aliado son los programas de informática para generación de documentos como Adobe InDesign. 
           | Con este potente programa se pueden generar documentos Epub, así los usuarios podrán ver los archivos con extensión Epub.
@@ -27,37 +28,43 @@
             p.fw-bold.mb-0 1. Composición de cuerpo y páginas
             p.mb-0.col-12.col-md-11.me-auto Es sustancial comprender que el modelo de documento Epub es totalmente diferente a la versión impresa, para controlar la composición del documento en Indesing es recomendable trabajar con un solo marco de texto por cada página y vincular todos los marcos entre ellos, de modo que solo hay una línea de texto.
             br
-            .d-flex.flex-wrap
+            .d-flex.flex-wrap.indicador__container(@mouseover="indicadort2 = false")
+              .indicador--click(v-if="indicadort2" style="left: 95%; top: 50%")
               p.col-12.col-md-11.pe-0.pe-md-4.mb-0 La mayoría de los libros electrónicos actuales permiten al usuario cambiar la fuente, el tamaño, la alineación, el color, la imagen de fondo y los márgenes. Si el texto contiene notas al pie, marcas, imágenes, o elementos similares, se puede formatear para distinguirlos lo suficiente del cuerpo principal del texto. 
               img(src="@/assets/curso/tema2/icon-info.svg" style="max-width: 65px; cursor: pointer" @click="modal2 = true").col-12.col-md-1.mx-auto
     
     .col-12.d-flex.flex-wrap.mb-3
-      .col-12.col-md-5.p-4.d-flex.flex-wrap.alig-items-center(style="background-color: #FFF4C6").mb-3.mb-md-0
+      .col-12.col-md-5.p-4.d-flex.flex-wrap.alig-items-center.indicador__container(style="background-color: #FFF4C6" @mouseover="indicadort3 = false").mb-3.mb-md-0
         .col-12.col-md-10.ms-auto.my-auto
           p.fw-bold.mb-0 2. Ejemplos de páginas de muestras
           p.mb-0 Todo lo que se coloque en la página de inicio, como encabezados, pies de página, número de página, logotipos, etc., se eliminará del archivo EPUB final, porque el documento EPUB no caracteriza la estructura de la página. 
         img(src="@/assets/curso/tema2/icon-info.svg" style="max-width: 65px; cursor: pointer" @click="modal3 = true").col-12.col-md-2.mt-auto
+        .indicador--click(v-if="indicadort3" style="left: 88%; top: 75%")
       .col-12.col-md-3.position-relative.container-img-pt-3.mb-3.mb-md-0
-        div.mx-0.mx-md-3.h-100.px-4.text-center(style="background-color: #B1F7FD;")
+        div.mx-0.mx-md-3.h-100.px-4.text-center.indicador__container(style="background-color: #B1F7FD;" @mouseover="indicadort4 = false")
+          .indicador--click(v-if="indicadort4" style="left: 50%; top: 50%")
           img(src="@/assets/curso/tema2/img-t_2-3.png" style="max-width: 229px; position: relative; top: -20%; cursor: pointer;" @click="modal4 = true").mx-auto
           p.fw-bold(style="margin-top: -1.5rem") 3. Trabaja con capítulos y secciones de documento
-      .col-12.col-md-4.p-4(style="background-color: #FFF4C6; cursor: pointer" @click="modal5 = true")
+      .col-12.col-md-4.p-4.indicador__container(style="background-color: #FFF4C6; cursor: pointer" @click="modal5 = true" @mouseover="indicadort5 = false")
+        .indicador--click(v-if="indicadort5" style="left: 50%; top: 50%")
         p.fw-bold.mb-0 4. Estilo de texto
         p.mb-0 Los lectores de libros electrónicos, generalmente, permiten al usuario elegir estilo, tamaño de texto y, a veces, ajustar alineación,  espaciado entre líneas, espaciado entre párrafos y color de fondo del texto. En el caso de funciones avanzadas, como capítulo, propósito general o texto de párrafo, es posible que se pierdan. 
     
     .col-12.d-flex.flex-wrap.mb-3
       .col-12.col-md-6.pe-0.pe-md-2.mb-3.mb-md-0
-        .col-12.d-flex.flex-wrap(style="background-color: #FFD99D").pt-3.pt-md-5.pb-4.px-4.ps-md-5.pe-md-4
+        .col-12.d-flex.flex-wrap.pt-3.pt-md-5.pb-4.px-4.ps-md-5.pe-md-4.indicador__container(style="background-color: #FFD99D" @mouseover="indicadort6 = false")
           .col-12.col-md-10
             p.fw-bold.mb-0 5. Línea de carácter
             p Una de las características más notables de la familia de fuentes Open Type es la inclusión de un conjunto de caracteres extendido, que puede contener muchas variaciones del mismo carácter (por ejemplo, cuatro formas de representar la letra Q mayúscula).
           img(src="@/assets/curso/tema2/icon-info.svg" style="max-width: 65px; cursor: pointer" @click="modal6 = true").col-12.col-md-2.mt-auto
+          .indicador--click(v-if="indicadort6" style="left: 86%; top: 75%")
       .col-12.col-md-6.ps-0.ps-md-2
         .col-12.h-100.px-4.px-md-5.d-flex(style="background-color: #FFF4C6").pt-3.pt-md-0
-          .my-auto  
+          .my-auto
             p.fw-bold.mb-0 6. Espaciados de línea y saltos de línea
             p.mb-3.mb-md-0 La mayoría de los lectores electrónicos que admiten el formato EPUB eliminan los saltos de párrafo adicionales. Si se desea dejar espacio entre párrafos, debe establecerlo en Estilo de párrafo, utilizando las opciones de espaciado de párrafo 
-              span(style="font-weight: bold; color: #F57C00; cursor: pointer; text-decoration: underline;" @click="modal7 = true") Antes y Después. 
+              span.indicador__container(style="font-weight: bold; color: #F57C00; cursor: pointer; text-decoration: underline;" @click="modal7 = true" @mouseover="indicadort7 = false") Antes y Después. 
+                .indicador--click(v-if="indicadort7" style="left: 50%; top: 50%")
 
     .col-12.d-flex.flex-wrap.mb-5
       .col-12.col-md-4.d-flex(style="background-color: #FFF4C6").mb-3.mb-md-0
@@ -65,12 +72,14 @@
           p.fw-bold.mb-0 7. Lista
           p.mb-0 El formato epub, originalmente, admite listas con viñetas pero, para obtener la salida correcta, debe usar la función de lista incorporada de la versión cs4 del programa.
       .col-12.col-md-4.container-imagen-pt-8.mb-3.mb-md-0
-        div.mx-0.mx-md-3.h-100(style="background-color: #B1F7FD; cursor: pointer;" @click="modal8 = true")
+        div.mx-0.mx-md-3.h-100.indicador__container(style="background-color: #B1F7FD; cursor: pointer;" @click="modal8 = true" @mouseover="indicadort8 = false")
+          .indicador--click(v-if="indicadort8" style="left: 50%; top: 50%")
           .px-4.px-md-5.pt-4.position-relative
             p.mb-0.fw-bold 8. Márgenes, hipervínculos y referencias
             img(src="@/assets/curso/tema2/img-t_2-4.png", style="max-width: 224px; top: 50%; right: 5%").position-absolute
       .col-12.col-md-4.d-flex(style="background-color: #FFF4C6; cursor: pointer;" @click="modal9 = true")
-        .px-4.px-md-5.my-3.my-md-auto
+        .px-4.px-md-5.my-3.my-md-auto.indicador__container(@mouseover="indicadort9 = false")
+          .indicador--click(v-if="indicadort9" style="left: 50%; top: 50%")
           p.fw-bold.mb-0 9. Imágenes y objetos
           p.mb-0 Las imágenes y los objetos del documento aparecerán colocados aleatoriamente en el archivo EPUB final.
 
@@ -78,9 +87,12 @@
       .container-publicacion-dijital
         .col-12.col-md-2
           img(src="@/assets/curso/tema2/icon-camara.png" style="max-width: 107px; margin-top: -3rem; margin-left: auto;").pe-3
-        .col-12.col-md-9.py-3.px-4.px-md-0
-          p.mb-0 Para continuar exitosamente el estudio de este componente amplíe conceptos y acciones clave del proceso de producción y publicación de productos digitales (formato Epub), analizando el vídeo 
+        .col-12.col-md-9.py-3.px-4.px-md-0.d-flex.flex-wrap.flex-md-nowrap
+          p.mb-4 Para continuar exitosamente el estudio de este componente amplíe conceptos y acciones clave del proceso de producción y publicación de productos digitales (formato Epub), analizando el vídeo 
             span(style="font-weight: bold; text-decoration: underline;") Publicación digital.
+          a.boton.my-auto.color-acento-contenido.indicador__container(style="min-width: 96px; max-height: 44px" @click="modal10 = true" @mouseover="indicadort10 = false")
+            span Ver video
+            .indicador--click(v-if="indicadort10")
 
     ModalA(:abrir-modal.sync="modal1")
       .row.align-items-center
@@ -143,6 +155,13 @@
             br
             | Además, el orden del contenido en el documento no coincidirá exactamente con el orden en el que aparece en el archivo EPUB, por lo que el formato del documento final deberá cambiarse manualmente.
 
+    ModalA(:abrir-modal.sync="modal10")
+      .row.align-items-center
+        h4.titulo-cuarto Video
+        figure.mb-5(v-if="modal10")
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/ndUhhq0b5uM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 </template>
 
 <script>
@@ -150,14 +169,25 @@ export default {
   name: 'Tema2',
   data: () => ({
     modal1: false,
+    indicadort1: true,
     modal2: false,
+    indicadort2: true,
     modal3: false,
+    indicadort3: true,
     modal4: false,
+    indicadort4: true,
     modal5: false,
+    indicadort5: true,
     modal6: false,
+    indicadort6: true,
     modal7: false,
+    indicadort7: true,
     modal8: false,
+    indicadort8: true,
     modal9: false,
+    indicadort9: true,
+    modal10: false,
+    indicadort10: true,
   }),
   mounted() {
     this.$nextTick(() => {
