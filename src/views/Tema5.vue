@@ -5,15 +5,15 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Visualización y validación de los archivos Epub
+      h1 Visualización y validación de los archivos <em>Epub</em>
     .row.mb-4.mb-md-0
       .col-12.col-md-6.col-xxl-5
         img(src="@/assets/curso/tema5/img_t_5-1.png" data-aos="zoom-in-up").my-4.my-md-0
       .col-12.col-md-6.col-xxl-6.ms-auto
-        p.mb-4.mt-auto En el proceso de validación de un <b>Epub</b> es importante que el archivo no contenga ningún error que pueda generar problemas a la hora de su visualización. El formato <b>Epub</b>, así como el <b>Mobi</b>, son formatos que se adaptan a la pantalla en la que se va a ver, a diferencia de los archivos PDF, que se caracterizan por tener una composición estática y por esto se visualiza igual en todas partes. 
+        p.mb-4.mt-auto En el proceso de validación de un <b><em>Epub</em></b> es importante que el archivo no contenga ningún error que pueda generar problemas a la hora de su visualización. El formato <b><em>Epub</em></b>, así como el <b><em>Mobi</em></b>, son formatos que se adaptan a la pantalla en la que se va a ver, a diferencia de los archivos PDF, que se caracterizan por tener una composición estática y por esto se visualiza igual en todas partes. 
         .d-flex.align-items-center.py-3(style="background-color: #B1F7FD; min-height: 140px")
           img(src="@/assets/curso/tema5/icon_t_5-1.svg" style="max-width: 107px")
-          p.ps-4 Una vez se maqueta un archivo en formato Epub es importante realizar la validación de los archivos que lo componen en los diferentes dispositivos digitales. 
+          p.ps-4 Una vez se maqueta un archivo en formato <em>Epub</em> es importante realizar la validación de los archivos que lo componen en los diferentes dispositivos digitales. 
 
     p.mb-5 En el proceso de validación pueden suceder algunos errores. Tenga en cuenta las particularidades que se muestran a continuación:
 
@@ -27,7 +27,7 @@
       div(titulo="Necesidad del proceso")
         .d-flex.flex-wrap.flex-md-nowrap.align-items-center.px-4.px-md-5
             img(src="@/assets/curso/tema5/img-acordeon_t_5-2.png" style="max-height: 212px; max-width: 212px").mb-0.mb-md-0
-            p.ps-0.ps-md-5 Lo que se consigue al validar un archivo epub es que esté bien, es decir, que los metadatos sean correctos, que la tabla de contenidos sea correcta, que las imágenes se muestren sin problemas y que no haya enlaces rotos. 
+            p.ps-0.ps-md-5 Lo que se consigue al validar un archivo <em>epub</em> es que esté bien, es decir, que los metadatos sean correctos, que la tabla de contenidos sea correcta, que las imágenes se muestren sin problemas y que no haya enlaces rotos. 
 
       div(titulo="Utilidad de validación")
         .d-flex.flex-wrap.flex-md-nowrap.align-items-center.px-4.px-md-5
@@ -40,16 +40,16 @@
             div.ps-0.ps-md-5
               p Algunos programas que realizan el proceso de validación son:
               <ul style="list-style-type: disc;">
-                <li> <b>EpubCheck</b>, este es el oficial de la IDPF</li>
-                <li> <b>EpubValidator</b>, es la versión online funciona hasta 10mb.</li>
-                <li> <b>Flightcrew</b>, este programa es desarrollado por Google</li>
-                <li> <b>Además</b>, varios de los editores de epub, como sigil, tiene esta función</li>
+                <li> <b><em>EpubCheck</em></b>, este es el oficial de la IDPF</li>
+                <li> <b><em>EpubValidator</em></b>, es la versión online funciona hasta 10mb.</li>
+                <li> <b><em>Flightcrew</em></b>, este programa es desarrollado por <em>Google</em></li>
+                <li> <b>Además</b>, varios de los editores de <em>epub</em>, como sigil, tiene esta función</li>
               </ul>
 
       div(titulo="Primer paso")
         .d-flex.flex-wrap.flex-md-nowrap.align-items-center.px-4.px-md-5
             img(src="@/assets/curso/tema5/img-acordeon_t_5-5.png" style="max-height: 212px; max-width: 212px").mb-0.mb-md-0
-            p.ps-0.ps-md-5 El primer paso que se debe realizar cuando se crea el epub, es hacer una validación según los estándares del formato utilizado, con el fin de que cumpla con los requisitos técnicos básicos. Este procedimiento garantiza que el epub sea coherente y la información se pueda visualizar de forma correcta en diferentes dispositivos.
+            p.ps-0.ps-md-5 El primer paso que se debe realizar cuando se crea el <em>epub</em>, es hacer una validación según los estándares del formato utilizado, con el fin de que cumpla con los requisitos técnicos básicos. Este procedimiento garantiza que el <em>epub</em> sea coherente y la información se pueda visualizar de forma correcta en diferentes dispositivos.
 
       div(titulo="Segundo paso")
         .d-flex.flex-wrap.flex-md-nowrap.align-items-center.px-4.px-md-5
@@ -59,17 +59,17 @@
               ul(style="list-style-type: disc;")
                 li Adobe digital editions
                 li Visor de libros electrónicos como calibre
-                li Kindle preview si se trata de un formato Mobi
+                li <em>Kindle</em> preview si se trata de un formato <em>Mobi</em>
 
       div(titulo="Tercer paso")
         .d-flex.flex-wrap.flex-md-nowrap.align-items-center.px-4.px-md-5
             img(src="@/assets/curso/tema5/img-acordeon_t_5-7.png" style="max-height: 212px; max-width: 212px").mb-0.mb-md-0
-            p.ps-0.ps-md-5 El primer paso que se debe realizar cuando se crea el epub, es hacer una validación según los estándares del formato utilizado, con el fin de que cumpla con los requisitos técnicos básicos. Este procedimiento garantiza que el epub sea coherente y la información se pueda visualizar de forma correcta en diferentes dispositivos.
+            p.ps-0.ps-md-5 El primer paso que se debe realizar cuando se crea el epub, es hacer una validación según los estándares del formato utilizado, con el fin de que cumpla con los requisitos técnicos básicos. Este procedimiento garantiza que el <em>epub</em> sea coherente y la información se pueda visualizar de forma correcta en diferentes dispositivos.
 
       div(titulo="Por último")
         .d-flex.flex-wrap.flex-md-nowrap.align-items-center.px-4.px-md-5
             img(src="@/assets/curso/tema5/img-acordeon_t_5-8.png" style="max-height: 212px; max-width: 212px").mb-0.mb-md-0
-            p.ps-0.ps-md-5 Finalmente, es importante depurar el código, incluso cuando se trata de programas como sigil e indesing debido a las etiquetas, ya que automatizan el proceso y, a menudo, producen etiquetas no estándar. El código limpio evita problemas de lectura y facilita seguir trabajando en archivos estáticos.
+            p.ps-0.ps-md-5 Finalmente, es importante depurar el código, incluso cuando se trata de programas como <em>sigil e indesing</em> debido a las etiquetas, ya que automatizan el proceso y, a menudo, producen etiquetas no estándar. El código limpio evita problemas de lectura y facilita seguir trabajando en archivos estáticos.
         
 </template>
 <script>

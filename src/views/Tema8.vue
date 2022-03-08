@@ -12,7 +12,10 @@
         p.mb-4.mb-md-0 En la actualidad existen varias opciones para la creación de objetos digitales, publicación, elección de producto, formatos o <em>softwares</em> y, desde luego, varias opciones para su comercialización. El proceso de ingeniería específico para crear un producto digital determina las oportunidades de negocio o el trabajo que se debe realizar para alcanzarlas. 
       .col-12.col-md-7
         .p-4.mb-4.h-100.d-flex.align-items-center(style="background-color: #B1F7FD" data-aos="zoom-in-up")
-          p.mb-0 Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
+          p.mb-0 Siempre puede se pueden convertir productos a otros formatos de 
+            | publicación digital o modificar la arquitectura técnica para que se adapte a los requisitos específicos de las plataformas de 
+            span(style="font-weight: bold; color: #F57C00;") publicación digital, 
+            | tal como se encuentran en su arquitectura. 
     
     img(src="@/assets/curso/tema8/img_t_8-1.png" data-aos="zoom-in-up").mb-5
     .col-12.pt-3.pt-md-5.mb-5
@@ -30,7 +33,7 @@
         //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         LineaTiempoD.color-acento-botones.lineaT_t_8
-          p.d-flex.flex-wrap.flex-md-nowrap(numero="1" titulo="Características del objeto principal") 
+          p.d-flex.flex-wrap.flex-md-nowrap(numero="1" titulo="Características del objeto digital") 
             img(src="@/assets/curso/tema8/img-linea_t_8-1.png" style="max-width: 305px;").pe-0.me-md-4.my-4.my-md-0
             | Cabe decir que las opciones comerciales para la producción digital se centran en las características técnicas de cada objeto digital, su forma y los lenguajes de programación que se deben implementar para crearlo. Hay tantas opciones populares en todo el mundo que se pueden utilizar para publicar y comercializar productos digitales independientemente del formato y el momento de su creación. 
 
@@ -40,7 +43,7 @@
           
           p.d-flex.flex-wrap.flex-md-nowrap(numero="3" titulo="Cuando se hace de forma automática") 
             img(src="@/assets/curso/tema8/img-linea_t_8-3.png" style="max-width: 305px;").pe-0.me-md-4.my-4.my-md-0
-            | En este caso, es necesario que el contenido se muestre en la red y, por tanto, utilizar lenguajes para la web o formatos que tomen estos ejemplos como epubs, como referencia.
+            | En este caso, es necesario que el contenido se muestre en la red y, por tanto, utilizar lenguajes para la web o formatos que tomen estos ejemplos como <em>epubs</em>, como referencia.
 
           p.d-flex.flex-wrap.flex-md-nowrap(numero="4" titulo="Identificación y categorización") 
             img(src="@/assets/curso/tema8/img-linea_t_8-4.png" style="max-width: 305px;").pe-0.me-md-4.my-4.my-md-0

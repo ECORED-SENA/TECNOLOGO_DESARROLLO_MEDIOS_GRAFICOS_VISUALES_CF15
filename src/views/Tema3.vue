@@ -11,7 +11,7 @@
       .col-12.col-md-5
         img(src="@/assets/curso/tema3/img_t_3-1.png" data-aos="zoom-in-up")
       .col-12.col-md-6.ms-auto
-        p.pt-4 Analizando la publicación de elementos digitales se puede resumir que, para un usuario, será irrelevante el formato en que se encuentre este producto, es decir, pueden estar en formato Epub o el formato Mobi. Si bien es cierto que es diferente leer un libro en formato PDF porque  posee una variedad de ventajas como, por ejemplo, la configuración de tipo de fuentes, su tamaño o también el ajuste del texto en pantalla. 
+        p.pt-4 Analizando la publicación de elementos digitales se puede resumir que, para un usuario, será irrelevante el formato en que se encuentre este producto, es decir, pueden estar en formato <em>Epub</em> o el formato <em>Mobi</em>. Si bien es cierto que es diferente leer un libro en formato PDF porque  posee una variedad de ventajas como, por ejemplo, la configuración de tipo de fuentes, su tamaño o también el ajuste del texto en pantalla. 
           br
           br
           | En la etapa de posproducción se pueden definir alternativas de formatos para la publicación de productos electrónicos, analizado su contenido y el objetivo o alcance de la publicación. Tenga presente los siguientes aspectos:
@@ -26,7 +26,7 @@
         .container-card-formato.mx-2(:class="formatSelect == 1 ? 'select-formato' : ''" @click="formatSelect = 1")
           .titulo-principal__numero
             span 02.
-          p.mb-0 Elección de formato
+          p.mb-0 Formato de salida
       .col-12(style="background-color: #F3F9FF; border-radius: 10px").mt-3
         p.px-4.px-md-5.py-4.py-md-5(v-if="formatSelect == 0") La elección del formato de una publicación se determina previo a la producción del producto; se debe plantear en el objetivo del proyecto, así se obtendrá una visión clara de lo que se va a realizar. Es una decisión que se toma previamente sobre dónde y cómo se desea distribuir.
         p.px-4.px-md-5.py-4.py-md-5(v-if="formatSelect == 1") En este sentido se definen las variables del proyecto, y se debe tomar la decisión referente al formato de salida la publicación que por supuesto debe ser creativo y exclusivo.
@@ -49,17 +49,17 @@
         div(x="50%" y="0%" tooltip="Clici para ver más" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-3.png")
-            p.ms-auto(style="max-width: 415px") Formato de archivo de libro electrónico; usa extensión .epub Compatible con varios lectores de libros electrónicos. Hay <em>software</em> compatible para la diversidad de dispositivos inteligentes, tablets y computadoras. Para una correcta lectura de un producto como <em>e-book</em> en cualquier dispositivo, este formato es el más adecuado. La mayoría de tiendas de <em>e-books</em> exigen que estos estén en el formato epub.
+            p.ms-auto(style="max-width: 415px") Formato de archivo de libro electrónico; usa extensión .<em>epub</em> Compatible con varios lectores de libros electrónicos. Hay <em>software</em> compatible para la diversidad de dispositivos inteligentes, <em>tablets</em> y computadoras. Para una correcta lectura de un producto como <em>e-book</em> en cualquier dispositivo, este formato es el más adecuado. La mayoría de tiendas de <em>e-books</em> exigen que estos estén en el formato <em>epub</em>.
 
         div(x="85%" y="15%" tooltip="Clici para ver más" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-4.png")
-            p.ms-auto(style="max-width: 415px") Formato para archivos de libros electrónicos (<em>ebook</em>) creados por Mobipocket SA. El contenido está etiquetado, pero su formato no está dividido, lo que es adecuado para diferentes tamaños de pantalla de muchos lectores electrónicos del mercado. Este formato se basa en las especificaciones de Open eBook. Admite protección DRM, aunque Mobipocket SA prohíbe que los dispositivos de reproducción dedicados que permiten su sistema DRM admitan cualquier otro sistema DRM. El archivo mobipocket termina con la extensión “.mobi”.
+            p.ms-auto(style="max-width: 415px") Formato para archivos de libros electrónicos (<em>ebook</em>) creados por Mobipocket SA. El contenido está etiquetado, pero su formato no está dividido, lo que es adecuado para diferentes tamaños de pantalla de muchos lectores electrónicos del mercado. Este formato se basa en las especificaciones de <em>Open eBook</em>. Admite protección DRM, aunque Mobipocket SA prohíbe que los dispositivos de reproducción dedicados que permiten su sistema DRM admitan cualquier otro sistema DRM. El archivo mobipocket termina con la extensión “.mobi”.
 
         div(x="100%" y="50%" tooltip="Clici para ver más" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-5.png")
-            p.ms-auto(style="max-width: 415px") Se utiliza para cualquier documento digital y también para libros electrónicos. Sus ventajas incluyen la portabilidad y la estandarización ISO. Esta es la forma más utilizada debido a su facilidad de uso. Un inconveniente es que no se puede migrar, como Mobipocket o el EPUB estándar. Los archivos PDF terminan con la extensión “.pdf”.
+            p.ms-auto(style="max-width: 415px") Se utiliza para cualquier documento digital y también para libros electrónicos. Sus ventajas incluyen la portabilidad y la estandarización ISO. Esta es la forma más utilizada debido a su facilidad de uso. Un inconveniente es que no se puede migrar, como Mobipocket o el <em>EPUB</em> estándar. Los archivos <em>PDF</em> terminan con la extensión “.pdf”.
 
         div(x="85%" y="85%" tooltip="Clici para ver más" numero="")
           .container-card-infografia
@@ -69,7 +69,7 @@
         div(x="50%" y="100%" tooltip="Clici para ver más" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-1.png")
-            p.ms-auto(style="max-width: 415px") Formato de libro electrónico desarrollado por Amazon. Compatible con todos los dispositivos Amazon Kindle, teléfonos inteligentes y tabletas Android, iPhone y iPad. Bajo la misma extensión, existen dos versiones diferentes del formato: KF7 y KF8. La extensión AZW se utiliza en archivos de libros electrónicos protegidos por DRM y no protegidos por DRM. Los archivos AZW con DRM sólo se pueden obtener de Amazon, ya que la protección es propietaria y no se ha transferido a otras empresas. 
+            p.ms-auto(style="max-width: 415px") Formato de libro electrónico desarrollado por <em>Amazon</em>. Compatible con todos los dispositivos <em>Amazon Kindle</em>, teléfonos inteligentes y <em>tabletas Android</em>, <em>iPhone</em> y <em>iPad</em>. Bajo la misma extensión, existen dos versiones diferentes del formato: KF7 y KF8. La extensión AZW se utiliza en archivos de libros electrónicos protegidos por DRM y no protegidos por DRM. Los archivos AZW con DRM sólo se pueden obtener de Amazon, ya que la protección es propietaria y no se ha transferido a otras empresas. 
 
         div(x="15%" y="85%" tooltip="Clici para ver más" numero="")
           .container-card-infografia
@@ -79,7 +79,7 @@
         div(x="0%" y="50%" tooltip="Clici para ver más" numero="")
           .container-card-infografia
             img(src="@/assets/curso/tema3/img-card-infografia_t_3-7.png")
-            p.ms-auto(style="max-width: 415px") Formato de Microsoft Word. El conocido lenguaje de marcas utilizado para crear sitios web también es adecuado para ver libros digitales. Muchos libros sin derechos de autor se han publicado en Internet en este formato.
+            p.ms-auto(style="max-width: 415px") Formato de <em>Microsoft Word</em>. El conocido lenguaje de marcas utilizado para crear sitios web también es adecuado para ver libros digitales. Muchos libros sin derechos de autor se han publicado en Internet en este formato.
 </template>
 
 <script>

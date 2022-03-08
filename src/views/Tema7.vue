@@ -9,7 +9,7 @@
     
     .col-12.d-flex.flex-wrap
       .col-12.col-md-8.pe-0.pe-md-4.mb-4
-        p Los documentos se pueden crear como <b>Epub</b> reiniciable. El Epub reiniciable es utilizado por los usuarios de Epub para mejorar el contenido, de acuerdo con sus dispositivos de visualización. El formato reiniciable es más conveniente, si el documento está destinado a dispositivos de tinta electrónica.
+        p Los documentos se pueden crear como <b><em>Epub</em></b> reiniciable. El <em>Epub</em> reiniciable es utilizado por los usuarios de <em>Epub</em> para mejorar el contenido, de acuerdo con sus dispositivos de visualización. El formato reiniciable es más conveniente, si el documento está destinado a dispositivos de tinta electrónica.
       .col-12.col-md-4
         p.fw-bold Se debe usar si se desea facilitar las opciones para cambio de fuente y tamaño del texto en el reproductor.
     
@@ -50,8 +50,7 @@ export default {
   data: () => ({
     datosSlyder: [
       {
-        titulo:
-          'Never, never assume that what you have achieved is good enough',
+        titulo: 'Opciones de texto y características',
         texto: `<p class="ps-3">Crear un documento para exportarlo a un formato de diseño fijo, admite opciones de texto, como:</p>
           <ul style="list-style-type: disc; margin-left: 1.1rem">
             <li>El texto no está categorizado, por lo que el texto interactivo se puede buscar y seleccionar. </li>
@@ -61,6 +60,16 @@ export default {
           </ul>
           `,
         imagen: require('@/assets/curso/tema7/img-slider_t_7-1.png'),
+      },
+      {
+        titulo: 'Limitaciones para exportación <em>Epub</em>',
+        texto: `<ul style="list-style-type: disc; margin-left: 1.1rem">
+            <li>El interletraje no se puede usar en un solo glifo y se distribuye como espaciado en todas las letras de la palabra.</li>
+            <li>Debido a su baja compatibilidad con dispositivos, no es posible utilizar alternativas a los pictogramas creados con <em>OpenType</em>, incluidas minúsculas, mayúsculas y minúsculas fraccionarias.</li>
+            <li>Los marcos de texto de derecha a izquierda no son totalmente compatibles con las escrituras de Oriente Medio.</li>
+          </ul>
+          `,
+        imagen: require('@/assets/curso/tema7/img-slider_t_7-3.png'),
       },
       {
         titulo: 'Soporte de hipervínculos',
@@ -73,22 +82,12 @@ export default {
         imagen: require('@/assets/curso/tema7/img-slider_t_7-2.png'),
       },
       {
-        titulo: 'Limitaciones para exportación Epub',
-        texto: `<ul style="list-style-type: disc; margin-left: 1.1rem">
-            <li>El interletraje no se puede usar en un solo glifo y se distribuye como espaciado en todas las letras de la palabra.</li>
-            <li>Debido a su baja compatibilidad con dispositivos, no es posible utilizar alternativas a los pictogramas creados con <em>OpenType</em>, incluidas minúsculas, mayúsculas y minúsculas fraccionarias.</li>
-            <li>Los marcos de texto de derecha a izquierda no son totalmente compatibles con las escrituras de Oriente Medio.</li>
-          </ul>
-          `,
-        imagen: require('@/assets/curso/tema7/img-slider_t_7-3.png'),
-      },
-      {
         titulo: 'Compatibilidad de movilidad',
-        texto: `<p class="ps-3">La exportación incluye las siguientes opciones de navegación en el archivo epub resultante:</p>
+        texto: `<p class="ps-3">La exportación incluye las siguientes opciones de navegación en el archivo <em>epub</em> resultante:</p>
           <ul style="list-style-type: disc; margin-left: 1.1rem">
-            <li><b>Señal NAV.</b> Se genera tanto para el formato de diseño fijo como para el reflujo, según el epub (Introducir valores especificados en cuadro de diálogo de opciones de exportación del objeto). Sólo la primera iteración del valor se agregará a la etiqueta.</li>
+            <li><b>Señal NAV.</b> Se genera tanto para el formato de diseño fijo como para el reflujo, según el <em>epub</em> (Introducir valores especificados en cuadro de diálogo de opciones de exportación del objeto). Sólo la primera iteración del valor se agregará a la etiqueta.</li>
             <li>Publicación electrónica <br><br>
-            <b>Epub 2.</b> Indesing admite la parte 2 de la publicación Epub de los archivos OPF. Indesing detecta automáticamente las opciones de impresión de portadas y la tabla de contenido. Para especificar el tipo de texto, Indesing utiliza el valor Epub: type especificado en el cuadro de diálogo “Opciones de exportación de objetos”.</li>
+            <b><em>Epub</em> 2.</b> <em>Indesing</em> admite la parte 2 de la publicación <em>Epub</em> de los archivos OPF. <em>Indesing</em> detecta automáticamente las opciones de impresión de portadas y la tabla de contenido. Para especificar el tipo de texto, <em>Indesing</em> utiliza el valor <em>Epub</em>: type especificado en el cuadro de diálogo “Opciones de exportación de objetos”.</li>
           </ul>
           `,
         imagen: require('@/assets/curso/tema7/img-slider_t_7-4.png'),
@@ -100,12 +99,12 @@ export default {
         imagen: require('@/assets/curso/tema7/img-slider_t_7-5.png'),
       },
       {
-        titulo: 'Exportar a Epub',
-        texto: `<p class="ps-3">Para exportar un documento o libro como un archivo epub o un formato de diseño reiniciable:</p>
+        titulo: 'Exportar a <em>Epub</em>',
+        texto: `<p class="ps-3">Para exportar un documento o libro como un archivo <em>epub</em> o un formato de diseño reiniciable:</p>
           <ul style="list-style-type: disc; margin-left: 1.1rem">
-            <li>Abrir el documento y seleccionar Archivo-Exportar. Ak abre un libro y en el menú del panel del libro, seleccionar Exportar libro a epub.</li>
-            <li>Luego, nombrar el archivo y determinar su ubicación. En el menú Guardar como texto, seleccionar epub (diseño fijo) o epub (redimensionable), luego clicar en Guardar.</li>
-            <li>En el cuadro de diálogo de opciones de exportación de epub, seleccionar las opciones deseadas y clicar en Aceptar.</li>
+            <li>Abrir el documento y seleccionar Archivo-Exportar. Ak abre un libro y en el menú del panel del libro, seleccionar Exportar libro a <em>epub</em>.</li>
+            <li>Luego, nombrar el archivo y determinar su ubicación. En el menú Guardar como texto, seleccionar <em>epub</em> (diseño fijo) o <em>epub</em> (redimensionable), luego clicar en Guardar.</li>
+            <li>En el cuadro de diálogo de opciones de exportación de <em>epub</em>, seleccionar las opciones deseadas y clicar en Aceptar.</li>
           </ul>
           `,
         imagen: require('@/assets/curso/tema7/img-slider_t_7-6.png'),

@@ -7,15 +7,12 @@
         span 6
       h1 Diagnóstico y corrección de funcionamiento
     
-    p.mb-5 Realizada la revisión mediante la utilización del programa de validación Epub Check, se realiza un diagnóstico del funcionamiento. Se debe continuar con la recolección de información que se ha obtenido en los diferentes dispositivos y variables, con el fin de tomar decisiones y proceder a corregir lo que sea necesario para la corrección de funcionamiento.
+    p.mb-5 Realizada la revisión mediante la utilización del programa de validación <em>Epub Check</em>, se realiza un diagnóstico del funcionamiento. Se debe continuar con la recolección de información que se ha obtenido en los diferentes dispositivos y variables, con el fin de tomar decisiones y proceder a corregir lo que sea necesario para la corrección de funcionamiento.
     img(src="@/assets/curso/tema6/img_t_6-1.png" data-aos="zoom-in-up").mb-5
 
     .d-flex.flex-wrap.mb-5
-      .col-12.col-md-5.col-xxl-4
+      .col-12
         p Aquí se realizan modificaciones del código y también un proceso de edición de contenidos relacionados con el formato en que se esté trabajando, con el propósito de llevar a cabo los correspondientes cambios en el producto digital para solucionar los problemas detectados en el análisis previamente realizado en los contenidos.
-      .col-12.col-md-7.col-xxl-8.d-flex.ps-0.ps-md-4
-        .d-flex.align-items-center.px-4.px-md-5.py-4(style="background-color: #B1F7FD")
-          p.mb-0 En esta etapa, el producto inicial ha pasado por producción y programación, también por revisión de estilo y forma; de este modo será fácil cuando el contenido funciona bien. Por el contrario, será difícil y extensa si se han encontrado muchos errores por corregir en su funcionamiento.
 
     .container-formato.col-12.col-md-8.mx-auto.mb-5
       .col-12.col-md-6.mb-3.mb-md-0

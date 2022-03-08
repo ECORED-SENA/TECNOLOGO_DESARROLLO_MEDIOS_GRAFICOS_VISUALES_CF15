@@ -11,7 +11,7 @@
       .col-12.col-md-5
         p.fw-bold En la posproducción como en todo proceso realizado en la etapa de producción deberán suceder una serie de análisis y controles, con el fin de obtener mejores resultados. 
       .col-12.col-md-7
-        p La posproducción Epub es 
+        p La posproducción <em>Epub</em> es 
           span(style="font-weight: bold; color: #F57C00") el primer paso que se debe hacer para asegurar una correcta verificación del producto en las diferentes 
           | plataformas o sistemas operativos, dispositivos digitales de salida y aplicaciones de lectura, entre otros aspectos.
           br
@@ -53,13 +53,13 @@
             p.title-card Variable de formato o parámetro
             p.text-center En síntesis, debe realizarse seguimiento en todas las opciones en que se pueda visualizar el contenido, maximizando también las variables que hay que estudiar, como el contenido horizontal o vertical y toda la información que haga parte del formato o parámetro. 
 
-      .tarjeta.tarjeta-slide.derecha.color-secundario(@mouseover="indicadorTarjetaSlide = false")
+      .tarjeta.tarjeta-slide.derecha.color-primario(@mouseover="indicadorTarjetaSlide = false")
         .tarjeta-slide__contenedor
           .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/tema1/img-card_t_1-5.png')})`}")
           .tarjeta-slide__contenido.p-4.p-xl-3
             img(src="@/assets/curso/tema1/icono-card_t_1-5.png").img-card
-            p.title-card Variable de formato o parámetro
-            p.text-center  En síntesis, debe realizarse seguimiento en todas las opciones en que se pueda visualizar el contenido, maximizando también las variables que hay que estudiar, como el contenido horizontal o vertical y toda la información que haga parte del formato o parámetro. 
+            p.title-card Respuesta a cambios de visualización 
+            p.text-center  En todo control o verificación puede cambiar el tamaño de fuentes, márgenes, tipo de visualización, con el propósito de asegurar que el contenido sigue funcionando correctamente en cualquier entorno y responde a todos los cambios de la visualización.
 
 </template>
 

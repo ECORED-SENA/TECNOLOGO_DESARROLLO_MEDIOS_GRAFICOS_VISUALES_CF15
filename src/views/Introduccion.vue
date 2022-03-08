@@ -14,7 +14,7 @@
       p El avance de la tecnología en el campo digital hoy en día genera diferentes alternativas en el desarrollo de productos digitales, estas tecnologías o plataformas brindan la posibilidad de crear productos digitales con diferentes características.
       img(src="@/assets/curso/introduccion/img-introduccion_1.svg")
     p.mb-5 Se da la bienvenida al estudio del componente formativo 
-      span.span-change “Posproducción Epub”.
+      span.span-change “Posproducción <em>Epub</em>”. 
       | Para adentrarse con éxito en esta experiencia se recomienda visualizar con atención el recurso que se muestra a continuación:
     
     figure.mb-5
