@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 8
-      h1 Modelos de negocio para publicaciones digitales
+      h1 Publicación de contenido
     
     .col-12.d-flex.flex-wrap.mb-5
       .col-12.col-md-5

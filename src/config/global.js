@@ -154,7 +154,7 @@ export default {
     },
     {
       referencia:
-        'Data 2 Check. (2018.) Documentación data2check - EpubCheck. Data2check.',
+        'Data 2 Check. (2018.) Documentación <em>data2check - EpubCheck. Data2check.</em>',
       link: 'https://www.data2check.de/es/documentation/epubcheck.html',
     },
     {

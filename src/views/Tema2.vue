@@ -27,7 +27,7 @@
             p.fw-bold.mb-0 1. Composición de texto y páginas
             .indicador--click(v-if="indicadort1" style="left: 69%; top: 25%")
             p.mb-0.col-12.col-md-11.me-auto Es sustancial comprender que el modelo de documento <em>Epub</em> es totalmente diferente a la versión impresa, para controlar la composición del documento en               
-              em(@click="modal1 = true" style="font-weight: bold; text-decoration: underline; cursor: pointer;" @mouseover="indicadort1 = false") InDesign 
+              em(@click="modal1 = true" style="font-weight: bold; text-decoration: underline; cursor: pointer;" @mouseover="indicadort1 = false") <em>InDesign </em>
               | es recomendable trabajar con un solo marco de texto por cada página y vincular todos los marcos entre ellos, de modo que solo hay una línea de texto.
             br
             .d-flex.flex-wrap.indicador__container(@mouseover="indicadort2 = false")
@@ -64,7 +64,7 @@
         .col-12.h-100.px-4.px-md-5.d-flex(style="background-color: #FFF4C6").pt-3.pt-md-0
           .my-auto
             p.fw-bold.mb-0 6. Espaciados de línea y saltos de línea
-            p.mb-3.mb-md-0 La mayoría de los lectores electrónicos que admiten el formato EPUB eliminan los saltos de párrafo adicionales. Si se desea dejar espacio entre párrafos, debe establecerlo en Estilo de párrafo, utilizando las opciones de espaciado de párrafo 
+            p.mb-3.mb-md-0 La mayoría de los lectores electrónicos que admiten el formato <em>EPUB</em> eliminan los saltos de párrafo adicionales. Si se desea dejar espacio entre párrafos, debe establecerlo en Estilo de párrafo, utilizando las opciones de espaciado de párrafo 
               span.indicador__container(style="font-weight: bold; color: #F57C00; cursor: pointer; text-decoration: underline;" @click="modal7 = true" @mouseover="indicadort7 = false") Antes y Después. 
                 .indicador--click(v-if="indicadort7" style="left: 50%; top: 50%")
 
@@ -90,9 +90,9 @@
         .col-12.col-md-2
           img(src="@/assets/curso/tema2/icon-camara.png" style="max-width: 107px; margin-top: -3rem; margin-left: auto;").pe-3
         .col-12.col-md-9.py-3.px-4.px-md-0.d-flex.flex-wrap.flex-md-nowrap
-          p.mb-4 Para continuar exitosamente el estudio de este componente amplíe conceptos y acciones clave del proceso de producción y publicación de productos digitales (formato Epub), analizando el vídeo 
+          p.mb-4 Para continuar exitosamente el estudio de este componente amplíe conceptos y acciones clave del proceso de producción y publicación de productos digitales (formato <em>Epub</em>), analizando el vídeo 
             span(style="font-weight: bold; text-decoration: underline;") Publicación digital.
-          a.boton.my-auto.color-acento-contenido.indicador__container(style="min-width: 96px; max-height: 44px" @click="modal10 = true" @mouseover="indicadort10 = false")
+          a.boton.my-auto.color-acento-contenido.indicador__container(style="min-width: 100px; max-height: 44px" @click="modal10 = true" @mouseover="indicadort10 = false")
             span Ver video
             .indicador--click(v-if="indicadort10")
 
@@ -116,19 +116,19 @@
         .col-md-8.mb-4.mb-md-0.mx-auto.d-flex.flex-wrap.flex-md-nowrap
           img(src="@/assets/curso/tema2/img-modal_t_2-3.png" style="max-width: 107px; max-height: 107px").mb-4
           p.ps-0.ps-md-4 El documento final mostrará los elementos clave de forma arbitraria a lo largo del libro, por lo tanto se puede usar una página de inicio, completamente en blanco, y elegir usar ciertos elementos en ella. 
-            span(style="font-weight: bold; color: #F57C00;") Recuerde que su única función es indicar cuándo se trabaja con documentos de InDesign.
+            span(style="font-weight: bold; color: #F57C00;") Recuerde que su única función es indicar cuándo se trabaja con documentos de <em>InDesign.</em>
 
     ModalA(:abrir-modal.sync="modal4")
       .row.align-items-center
         .col-md-8.mb-4.mb-md-0.mx-auto.d-flex.flex-wrap.flex-md-nowrap
           img(src="@/assets/curso/tema2/img-modal_t_2-4.png" style="max-width: 322px; max-height: 194px").mb-4
-          p.ps-0.ps-md-4 Dado que el formato EPUB no define la estructura de la página, las columnas, páginas y saltos de sección ingresados en InDesign se perderán. Así, el archivo <em>EPUB</em> final debe dividirse en capítulos o partes (si es un documento largo, esto es muy recomendable, como manuales o novelas), cree tantos documentos de InDesign independientes como tantas partes haya en el archivo <em>EPUB</em> final: portada, créditos, índice, cada uno de los capítulos y contraportada. En el ejemplo de la imagen siguiente, hay un panel de libro que contiene varios documentos de <em>Indesing</em>: portada, índice y cuatro capítulos.
+          p.ps-0.ps-md-4 Dado que el formato <em>EPUB</em> no define la estructura de la página, las columnas, páginas y saltos de sección ingresados en <em>InDesign</em> se perderán. Así, el archivo <em>EPUB</em> final debe dividirse en capítulos o partes (si es un documento largo, esto es muy recomendable, como manuales o novelas), cree tantos documentos de <em>InDesign</em> independientes como tantas partes haya en el archivo <em>EPUB</em> final: portada, créditos, índice, cada uno de los capítulos y contraportada. En el ejemplo de la imagen siguiente, hay un panel de libro que contiene varios documentos de <em>Indesing</em>: portada, índice y cuatro capítulos.
     
     ModalA(:abrir-modal.sync="modal5")
       .row.align-items-center
         .col-md-8.mb-4.mb-md-0.mx-auto.d-flex.flex-wrap.flex-md-nowrap
           img(src="@/assets/curso/tema2/img-modal_t_2-5.png" style="max-width: 107px").mb-4
-          p.ps-0.ps-md-4 El formato Epub se desarrolla y mejora constantemente y su compatibilidad varía entre los lectores, por lo que el último aspecto del documento debe considerarse en, al menos, dos dispositivos.
+          p.ps-0.ps-md-4 El formato <em>Epub</em> se desarrolla y mejora constantemente y su compatibilidad varía entre los lectores, por lo que el último aspecto del documento debe considerarse en, al menos, dos dispositivos.
 
     ModalA(:abrir-modal.sync="modal6")
       .row.align-items-center
@@ -152,7 +152,7 @@
       .row.align-items-center
         .col-md-8.mb-4.mb-md-0.mx-auto
           img(src="@/assets/curso/tema2/img-modal_t_2-9.png" style="max-width: 291px").mb-4.mx-auto
-          p.ps-0.ps-md-4 Si bien es probable que las imágenes se procesen manualmente después de la exportación, el proceso de acoplamiento ahorra tiempo al colocarlas exactamente dónde están en el libro. Dado que InDesign solo puede usar un tipo de objeto por lienzo estático, no será posible colocar la imagen y la anotación en el mismo lugar.
+          p.ps-0.ps-md-4 Si bien es probable que las imágenes se procesen manualmente después de la exportación, el proceso de acoplamiento ahorra tiempo al colocarlas exactamente dónde están en el libro. Dado que <em>InDesign</em> solo puede usar un tipo de objeto por lienzo estático, no será posible colocar la imagen y la anotación en el mismo lugar.
             br
             br
             | Además, el orden del contenido en el documento no coincidirá exactamente con el orden en el que aparece en el archivo <em>EPUB</em>, por lo que el formato del documento final deberá cambiarse manualmente.
