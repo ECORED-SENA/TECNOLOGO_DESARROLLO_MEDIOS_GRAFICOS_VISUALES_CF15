@@ -8,9 +8,9 @@
       h1 Posproducción
     
     .col-12.d-flex.flex-wrap.mb-5
-      .col-12.col-md-5
+      .col-12.col-md-5.pe-3
         p.fw-bold En la posproducción como en todo proceso realizado en la etapa de producción deberán suceder una serie de análisis y controles, con el fin de obtener mejores resultados. 
-      .col-12.col-md-7
+      .col-12.col-md-7.ps-3
         p La posproducción <em>Epub</em> es 
           span(style="font-weight: bold; color: #F57C00") el primer paso que se debe hacer para asegurar una correcta verificación del producto en las diferentes 
           | plataformas o sistemas operativos, dispositivos digitales de salida y aplicaciones de lectura, entre otros aspectos.

@@ -27,7 +27,7 @@
       div(titulo="Necesidad del proceso")
         .d-flex.flex-wrap.flex-md-nowrap.align-items-center.px-4.px-md-5
             img(src="@/assets/curso/tema5/img-acordeon_t_5-2.png" style="max-height: 212px; max-width: 212px").mb-0.mb-md-0
-            p.ps-0.ps-md-5 Lo que se consigue al validar un archivo <em>epub</em> es que esté bien, es decir, que los metadatos sean correctos, que la tabla de contenidos sea correcta, que las imágenes se muestren sin problemas y que no haya enlaces rotos. 
+            p.ps-0.ps-md-5 Lo que se consigue al validar un archivo <em>Epub</em> es que esté bien, es decir, que los metadatos sean correctos, que la tabla de contenidos sea correcta, que las imágenes se muestren sin problemas y que no haya enlaces rotos. 
 
       div(titulo="Utilidad de validación")
         .d-flex.flex-wrap.flex-md-nowrap.align-items-center.px-4.px-md-5
@@ -40,16 +40,16 @@
             div.ps-0.ps-md-5
               p Algunos programas que realizan el proceso de validación son:
               <ul style="list-style-type: disc;">
-                <li> <b><em>EpubCheck</em></b>, este es el oficial de la IDPF</li>
+                <li> <b><em>EpubCheck</em></b>, este es el oficial de la IDPF <i> (international digital publishing forum).</i></li>
                 <li> <b><em>EpubValidator</em></b>, es la versión online funciona hasta 10mb.</li>
-                <li> <b><em>Flightcrew</em></b>, este programa es desarrollado por <em>Google</em></li>
-                <li> <b>Además</b>, varios de los editores de <em>epub</em>, como sigil, tiene esta función</li>
+                <li> <b><em>Flightcrew</em></b>, este programa es desarrollado por <em>Google.</em></li>
+                <li> <b>Además</b>, varios de los editores de <em>Epub</em>, como sigil, tiene esta función.</li>
               </ul>
 
       div(titulo="Primer paso")
         .d-flex.flex-wrap.flex-md-nowrap.align-items-center.px-4.px-md-5
             img(src="@/assets/curso/tema5/img-acordeon_t_5-5.png" style="max-height: 212px; max-width: 212px").mb-0.mb-md-0
-            p.ps-0.ps-md-5 El primer paso que se debe realizar cuando se crea el <em>epub</em>, es hacer una validación según los estándares del formato utilizado, con el fin de que cumpla con los requisitos técnicos básicos. Este procedimiento garantiza que el <em>epub</em> sea coherente y la información se pueda visualizar de forma correcta en diferentes dispositivos.
+            p.ps-0.ps-md-5 El primer paso que se debe realizar cuando se crea el <em>Epub</em>, es hacer una validación según los estándares del formato utilizado, con el fin de que cumpla con los requisitos técnicos básicos. Este procedimiento garantiza que el <em>Epub</em> sea coherente y la información se pueda visualizar de forma correcta en diferentes dispositivos.
 
       div(titulo="Segundo paso")
         .d-flex.flex-wrap.flex-md-nowrap.align-items-center.px-4.px-md-5
@@ -57,19 +57,19 @@
             div.ps-0.ps-md-5
               p.ps-0 El siguiente paso es corregir los archivos tipográficamente en el escritorio del computador como se realiza la compaginación de un libro para impresión. Para realizar esta acción se debe usar un visualizador de contenido como, por ejemplo:
               ul(style="list-style-type: disc;")
-                li Adobe digital editions
-                li Visor de libros electrónicos como calibre
-                li <em>Kindle</em> preview si se trata de un formato <em>Mobi</em>
+                li Adobe digital editions.
+                li Visor de libros electrónicos como calibre.
+                li <em>Kindle</em> preview si se trata de un formato <em>Mobi.</em>
 
       div(titulo="Tercer paso")
         .d-flex.flex-wrap.flex-md-nowrap.align-items-center.px-4.px-md-5
             img(src="@/assets/curso/tema5/img-acordeon_t_5-7.png" style="max-height: 212px; max-width: 212px").mb-0.mb-md-0
-            p.ps-0.ps-md-5 El primer paso que se debe realizar cuando se crea el epub, es hacer una validación según los estándares del formato utilizado, con el fin de que cumpla con los requisitos técnicos básicos. Este procedimiento garantiza que el <em>epub</em> sea coherente y la información se pueda visualizar de forma correcta en diferentes dispositivos.
+            p.ps-0.ps-md-5 El primer paso que se debe realizar cuando se crea el #[i Epub], es hacer una validación según los estándares del formato utilizado, con el fin de que cumpla con los requisitos técnicos básicos. Este procedimiento garantiza que el <em>Epub</em> sea coherente y la información se pueda visualizar de forma correcta en diferentes dispositivos.
 
       div(titulo="Por último")
         .d-flex.flex-wrap.flex-md-nowrap.align-items-center.px-4.px-md-5
             img(src="@/assets/curso/tema5/img-acordeon_t_5-8.png" style="max-height: 212px; max-width: 212px").mb-0.mb-md-0
-            p.ps-0.ps-md-5 Finalmente, es importante depurar el código, incluso cuando se trata de programas como <em>sigil e indesing</em> debido a las etiquetas, ya que automatizan el proceso y, a menudo, producen etiquetas no estándar. El código limpio evita problemas de lectura y facilita seguir trabajando en archivos estáticos.
+            p.ps-0.ps-md-5 Finalmente, es importante depurar el código, incluso cuando se trata de programas como #[i sigil] e #[i Indesign] debido a las etiquetas, ya que automatizan el proceso y, a menudo, producen etiquetas no estándar. El código limpio evita problemas de lectura y facilita seguir trabajando en archivos estáticos.
         
 </template>
 <script>

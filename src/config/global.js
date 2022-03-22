@@ -91,7 +91,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -206,7 +206,7 @@ export default {
         'Calibre es un <em>software</em> gratuito para Mac, Windows y Linux que permite hacer todo lo relacionado con <em>eBooks</em>, excepto crearlos. (Vázquez, 2021).',
     },
     {
-      termino: '<b>DRM</b>',
+      termino: '<b>DRM (Digital Rights Management)</b>',
       significado:
         'Esta es una tecnología muy utilizada en la industria del libro electrónico, y no muchos autores y usuarios saben cómo funcionan los sistemas de gestión de derechos de autor (Arévalo y Cordón, 2010).',
     },

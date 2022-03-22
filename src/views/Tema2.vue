@@ -12,11 +12,11 @@
         p El proceso de generación de documentos se puede realizar con algunas herramientas informáticas que brindan varias opciones al usuario; 
           span(style="font-weight: bold; color: #F57C00;") un gran aliado son los programas de informática para generación de documentos como <em>Adobe InDesign</em>. 
           | Con este potente programa se pueden generar documentos <em>Epub</em>, así los usuarios podrán ver los archivos con extensión <em>Epub</em>.
-        p(style="background-color: #B1F7FD;").px-3.px-md-5.py-3.py-md-4.mb-auto Son varias consideraciones que se deben tener presentes en el momento de generar un documento para posteriormente, convertirlo adecuadamente en un libro electrónico de formato <em>Epub</em>. En <em>Indesing</em> se tiene dispuesta una serie de herramientas que permiten crear <em>e-books</em> con muy poco empeño.
+        p(style="background-color: #B1F7FD;").px-3.px-md-5.py-3.py-md-4.mb-auto Son varias consideraciones que se deben tener presentes en el momento de generar un documento para posteriormente, convertirlo adecuadamente en un libro electrónico de formato <em>Epub</em>. En <em>Indesign</em> se tiene dispuesta una serie de herramientas que permiten crear <em>e-books</em> con muy poco empeño.
       .col-12.col-md-6
         img(src="@/assets/curso/tema2/img-t_2-1.png" data-aos="zoom-in-up").ps-0.ps-md-5.py-2
     
-    p.mb-5 Estas son algunas de las particularidades y herramientas más destacadas de <em>Indesing</em>:
+    p.mb-5 Estas son algunas de las particularidades y herramientas más destacadas de <em>Indesign</em>:
 
     .col-12.mb-4
       .container-card-1
@@ -39,7 +39,7 @@
       .col-12.col-md-5.p-4.d-flex.flex-wrap.alig-items-center.indicador__container(style="background-color: #FFF4C6" @mouseover="indicadort3 = false").mb-3.mb-md-0
         .col-12.col-md-10.ms-auto.my-auto
           p.fw-bold.mb-0 2. Ejemplos de páginas de muestras
-          p.mb-0 Todo lo que se coloque en la página de inicio, como encabezados, pies de página, número de página, logotipos, etc., se eliminará del archivo <em>EPUB</em> final, porque el documento <em>EPUB</em> no caracteriza la estructura de la página. 
+          p.mb-0 Todo lo que se coloque en la página de inicio, como encabezados, pies de página, número de página, logotipos, etc., se eliminará del archivo <em>Epub</em> final, porque el documento <em>Epub</em> no caracteriza la estructura de la página. 
         img(src="@/assets/curso/tema2/icon-info.svg" style="max-width: 65px; cursor: pointer" @click="modal3 = true").col-12.col-md-2.mt-auto
         .indicador--click(v-if="indicadort3" style="left: 88%; top: 75%")
       .col-12.col-md-3.position-relative.container-img-pt-3.mb-3.mb-md-0
@@ -64,7 +64,7 @@
         .col-12.h-100.px-4.px-md-5.d-flex(style="background-color: #FFF4C6").pt-3.pt-md-0
           .my-auto
             p.fw-bold.mb-0 6. Espaciados de línea y saltos de línea
-            p.mb-3.mb-md-0 La mayoría de los lectores electrónicos que admiten el formato <em>EPUB</em> eliminan los saltos de párrafo adicionales. Si se desea dejar espacio entre párrafos, debe establecerlo en Estilo de párrafo, utilizando las opciones de espaciado de párrafo 
+            p.mb-3.mb-md-0 La mayoría de los lectores electrónicos que admiten el formato <em>Epub</em> eliminan los saltos de párrafo adicionales. Si se desea dejar espacio entre párrafos, debe establecerlo en Estilo de párrafo, utilizando las opciones de espaciado de párrafo 
               span.indicador__container(style="font-weight: bold; color: #F57C00; cursor: pointer; text-decoration: underline;" @click="modal7 = true" @mouseover="indicadort7 = false") Antes y Después. 
                 .indicador--click(v-if="indicadort7" style="left: 50%; top: 50%")
 
@@ -83,7 +83,7 @@
         .px-4.px-md-5.my-3.my-md-auto.indicador__container(@mouseover="indicadort9 = false")
           .indicador--click(v-if="indicadort9" style="left: 50%; top: 50%")
           p.fw-bold.mb-0 9. Imágenes y objetos
-          p.mb-0 Las imágenes y los objetos del documento aparecerán colocados aleatoriamente en el archivo <em>EPUB</em> final.
+          p.mb-0 Las imágenes y los objetos del documento aparecerán colocados aleatoriamente en el archivo <em>Epub</em> final.
 
     .col-12.pt-3.pt-md-5
       .container-publicacion-dijital
@@ -122,7 +122,7 @@
       .row.align-items-center
         .col-md-8.mb-4.mb-md-0.mx-auto.d-flex.flex-wrap.flex-md-nowrap
           img(src="@/assets/curso/tema2/img-modal_t_2-4.png" style="max-width: 322px; max-height: 194px").mb-4
-          p.ps-0.ps-md-4 Dado que el formato <em>EPUB</em> no define la estructura de la página, las columnas, páginas y saltos de sección ingresados en <em>InDesign</em> se perderán. Así, el archivo <em>EPUB</em> final debe dividirse en capítulos o partes (si es un documento largo, esto es muy recomendable, como manuales o novelas), cree tantos documentos de <em>InDesign</em> independientes como tantas partes haya en el archivo <em>EPUB</em> final: portada, créditos, índice, cada uno de los capítulos y contraportada. En el ejemplo de la imagen siguiente, hay un panel de libro que contiene varios documentos de <em>Indesing</em>: portada, índice y cuatro capítulos.
+          p.ps-0.ps-md-4 Dado que el formato <em>Epub</em> no define la estructura de la página, las columnas, páginas y saltos de sección ingresados en <em>InDesign</em> se perderán. Así, el archivo <em>Epub</em> final debe dividirse en capítulos o partes (si es un documento largo, esto es muy recomendable, como manuales o novelas), cree tantos documentos de <em>InDesign</em> independientes como tantas partes haya en el archivo <em>Epub</em> final: portada, créditos, índice, cada uno de los capítulos y contraportada. En el ejemplo de la imagen siguiente, hay un panel de libro que contiene varios documentos de <em>Indesign</em>: portada, índice y cuatro capítulos.
     
     ModalA(:abrir-modal.sync="modal5")
       .row.align-items-center
@@ -134,19 +134,19 @@
       .row.align-items-center
         .col-md-8.mb-4.mb-md-0.mx-auto.d-flex.flex-wrap.flex-md-nowrap
           img(src="@/assets/curso/tema2/img-modal_t_2-6.png" style="max-width: 291px").mb-4
-          p.ps-0.ps-md-4 Al exportar libros en formato <em>EPUB</em>: si no hay fuentes incrustadas en un lector digital que admita estos caracteres, aparecerán en su lugar otros caracteres alternativos o cuadros blancos.
+          p.ps-0.ps-md-4 Al exportar libros en formato <em>Epub</em>: si no hay fuentes incrustadas en un lector digital que admita estos caracteres, aparecerán en su lugar otros caracteres alternativos o cuadros blancos.
     
     ModalA(:abrir-modal.sync="modal7")
       .row.align-items-center
         .col-md-8.mb-4.mb-md-0.mx-auto
           img(src="@/assets/curso/tema2/img-modal_t_2-7.png" style="max-width: 291px").mb-4.mx-auto
-          p.ps-0.ps-md-4 Los saltos de línea forzados (Texto&#62; Insertar salto de carácter&#62; Salto de línea forzado) se conservan en los documentos <em>EPUB</em>. Dado que el flujo de texto se adaptará al ancho de la pantalla del lector digital, los saltos requeridos probablemente se traducirán en una interrupción en el flujo de texto. Por lo tanto, es mejor deshacerse de él. Utilice el cuadro de diálogo Buscar / Modificar para reemplazar las comas requeridas con un espacio antes de exportar el documento.
+          p.ps-0.ps-md-4 Los saltos de línea forzados (Texto&#62; Insertar salto de carácter&#62; Salto de línea forzado) se conservan en los documentos <em>Epub</em>. Dado que el flujo de texto se adaptará al ancho de la pantalla del lector digital, los saltos requeridos probablemente se traducirán en una interrupción en el flujo de texto. Por lo tanto, es mejor deshacerse de él. Utilice el cuadro de diálogo Buscar / Modificar para reemplazar las comas requeridas con un espacio antes de exportar el documento.
     
     ModalA(:abrir-modal.sync="modal8")
       .row.align-items-center
         .col-md-8.mb-4.mb-md-0.mx-auto
           img(src="@/assets/curso/tema2/img-modal_t_2-8.png" style="max-width: 291px").mb-4.mx-auto
-          p.ps-0.ps-md-4 Las notas al pie se exportan correctamente en formato <em>epub</em>, debido a que la estructura de la página original no se guarda, se convierten automáticamente en notas al pie al final del documento. La siguiente imagen muestra cómo se ven sus anotaciones de <em>Indesing</em> cuando se exportan a un <em>epub</em>.
+          p.ps-0.ps-md-4 Las notas al pie se exportan correctamente en formato <em>epub</em>, debido a que la estructura de la página original no se guarda, se convierten automáticamente en notas al pie al final del documento. La siguiente imagen muestra cómo se ven sus anotaciones de <em>Indesign</em> cuando se exportan a un <em>epub</em>.
 
     ModalA(:abrir-modal.sync="modal9")
       .row.align-items-center
@@ -155,7 +155,7 @@
           p.ps-0.ps-md-4 Si bien es probable que las imágenes se procesen manualmente después de la exportación, el proceso de acoplamiento ahorra tiempo al colocarlas exactamente dónde están en el libro. Dado que <em>InDesign</em> solo puede usar un tipo de objeto por lienzo estático, no será posible colocar la imagen y la anotación en el mismo lugar.
             br
             br
-            | Además, el orden del contenido en el documento no coincidirá exactamente con el orden en el que aparece en el archivo <em>EPUB</em>, por lo que el formato del documento final deberá cambiarse manualmente.
+            | Además, el orden del contenido en el documento no coincidirá exactamente con el orden en el que aparece en el archivo <em>Epub</em>, por lo que el formato del documento final deberá cambiarse manualmente.
 
     ModalA(:abrir-modal.sync="modal10")
       .row.align-items-center

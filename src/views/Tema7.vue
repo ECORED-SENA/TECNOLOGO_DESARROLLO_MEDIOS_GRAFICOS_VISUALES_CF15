@@ -85,9 +85,9 @@ export default {
         titulo: 'Compatibilidad de movilidad',
         texto: `<p class="ps-3">La exportación incluye las siguientes opciones de navegación en el archivo <em>epub</em> resultante:</p>
           <ul style="list-style-type: disc; margin-left: 1.1rem">
-            <li><b>Señal NAV.</b> Se genera tanto para el formato de diseño fijo como para el reflujo, según el <em>epub</em> (Introducir valores especificados en cuadro de diálogo de opciones de exportación del objeto). Sólo la primera iteración del valor se agregará a la etiqueta.</li>
+            <li><b>Señal NAV.</b> Se genera tanto para el formato de diseño fijo como para el reajustable, según el <em>epub</em> (Introducir valores especificados en cuadro de diálogo de opciones de exportación del objeto). Solo la primera iteración del valor se agregará a la etiqueta.</li>
             <li>Publicación electrónica <br><br>
-            <b><em>Epub</em> 2.</b> <em>Indesing</em> admite la parte 2 de la publicación <em>Epub</em> de los archivos OPF. <em>Indesing</em> detecta automáticamente las opciones de impresión de portadas y la tabla de contenido. Para especificar el tipo de texto, <em>Indesing</em> utiliza el valor <em>Epub</em>: type especificado en el cuadro de diálogo “Opciones de exportación de objetos”.</li>
+            <b><em>Epub</em> 2.</b> <em>Indesign</em> admite la parte 2 de la publicación <em>Epub</em> de los archivos OPF. <em>Indesign</em> detecta automáticamente las opciones de impresión de portadas y la tabla de contenido. Para especificar el tipo de texto, <em>Indesign</em> utiliza el valor <em>Epub</em>: <i>type</i> especificado en el cuadro de diálogo “Opciones de exportación de objetos”.</li>
           </ul>
           `,
         imagen: require('@/assets/curso/tema7/img-slider_t_7-4.png'),
@@ -102,7 +102,7 @@ export default {
         titulo: 'Exportar a <em>Epub</em>',
         texto: `<p class="ps-3">Para exportar un documento o libro como un archivo <em>epub</em> o un formato de diseño reiniciable:</p>
           <ul style="list-style-type: disc; margin-left: 1.1rem">
-            <li>Abrir el documento y seleccionar Archivo-Exportar. Ak abre un libro y en el menú del panel del libro, seleccionar Exportar libro a <em>epub</em>.</li>
+            <li>Abrir el documento y seleccionar Archivo-Exportar. Se abre un libro y en el menú del panel del libro, seleccionar Exportar libro a <em>epub</em>.</li>
             <li>Luego, nombrar el archivo y determinar su ubicación. En el menú Guardar como texto, seleccionar <em>epub</em> (diseño fijo) o <em>epub</em> (redimensionable), luego clicar en Guardar.</li>
             <li>En el cuadro de diálogo de opciones de exportación de <em>epub</em>, seleccionar las opciones deseadas y clicar en Aceptar.</li>
           </ul>

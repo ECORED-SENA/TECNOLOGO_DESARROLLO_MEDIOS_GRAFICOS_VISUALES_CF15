@@ -9,7 +9,7 @@
     
     .row
       .col-12.col-md-6.col-xxl-5
-        p.pe-0.pe-md-5 Una de las comprobaciones de errores existentes consiste, por ejemplo, es identificar errores en el libro electrónico. Para hacer esto hay una herramienta en línea llamada <em>Epub</em> Validator, que proporciona todos los errores del libro. El archivo debe tener menos de 10 MB para que la herramienta funcione. Una vez que descargue el libro electrónico y descubra errores aparecerá la sección de soluciones. 
+        p.pe-0.pe-md-5 Una de las comprobaciones de errores existentes consiste, por ejemplo, en identificar errores en el libro electrónico. Para hacer esto hay una herramienta en línea llamada <em>Epub</em> Validator, que proporciona todos los errores del libro. El archivo debe tener menos de 10 MB para que la herramienta funcione. Una vez que descargue el libro electrónico y descubra errores aparecerá la sección de soluciones. 
           br
           br
           span(style="font-weight: bold; color: #F57C00") Para corregir errores en archivos <em>Epub</em>, una de las mejores herramientas se llama Calibre. 
@@ -17,7 +17,7 @@
       .col-12.col-md-7.ps-0.ps-md-6.col-xxl-7
         .titulo-sexto.color-acento-contenido.ms-0.ms-md-5
           h5 Figura 1, Edición de <em>Epub</em>
-          span subtitulo
+          span subtítulo
         img(src="@/assets/curso/tema4/img_t_4-1.png" data-aos="zoom-in-up").my-4.my-md-0
     
     p.mb-5 Se deben tener en cuenta los siguientes pasos para corregir los errores de un elemento <em>Epub</em>:

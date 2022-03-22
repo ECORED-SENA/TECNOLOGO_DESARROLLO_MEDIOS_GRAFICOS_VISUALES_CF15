@@ -9,10 +9,10 @@
     
     .col-12.d-flex.flex-wrap.mb-5
       .col-12.col-md-5
-        p.mb-4.mb-md-0 En la actualidad existen varias opciones para la creación de objetos digitales, publicación, elección de producto, formatos o <em>softwares</em> y, desde luego, varias opciones para su comercialización. El proceso de ingeniería específico para crear un producto digital determina las oportunidades de negocio o el trabajo que se debe realizar para alcanzarlas. 
+        p.mb-4.mb-md-0 En la actualidad existen varias opciones para la creación de objetos digitales, publicación, elección de producto, formatos o <em>software</em> y, desde luego, varias opciones para su comercialización. El proceso de ingeniería específico para crear un producto digital determina las oportunidades de negocio o el trabajo que se debe realizar para alcanzarlas. 
       .col-12.col-md-7
         .p-4.mb-4.h-100.d-flex.align-items-center(style="background-color: #B1F7FD" data-aos="zoom-in-up")
-          p.mb-0 Siempre puede se pueden convertir productos a otros formatos de 
+          p.mb-0 Siempre se pueden convertir productos a otros formatos de 
             | publicación digital o modificar la arquitectura técnica para que se adapte a los requisitos específicos de las plataformas de 
             span(style="font-weight: bold; color: #F57C00;") publicación digital, 
             | tal como se encuentran en su arquitectura. 
@@ -43,7 +43,7 @@
           
           p.d-flex.flex-wrap.flex-md-nowrap(numero="3" titulo="Cuando se hace de forma automática") 
             img(src="@/assets/curso/tema8/img-linea_t_8-3.png" style="max-width: 305px;").pe-0.me-md-4.my-4.my-md-0
-            | En este caso, es necesario que el contenido se muestre en la red y, por tanto, utilizar lenguajes para la web o formatos que tomen estos ejemplos como <em>epubs</em>, como referencia.
+            span En este caso, es necesario que el contenido se muestre en la red y, por tanto, utilizar lenguajes para la #[i web] o formatos que tomen estos ejemplos como #[i epubs], como referencia.
 
           p.d-flex.flex-wrap.flex-md-nowrap(numero="4" titulo="Identificación y categorización") 
             img(src="@/assets/curso/tema8/img-linea_t_8-4.png" style="max-width: 305px;").pe-0.me-md-4.my-4.my-md-0
@@ -51,7 +51,7 @@
 
           p.d-flex.flex-wrap.flex-md-nowrap(numero="5" titulo="Publicación digital en línea") 
             img(src="@/assets/curso/tema8/img-linea_t_8-5.png" style="max-width: 305px;").pe-0.me-md-4.my-4.my-md-0
-            | Desde los modelos de publicación más populares hasta los más nuevos, se relacionan con la evolución de la tecnología en la web. La publicación digital en línea es una realidad en todas las industrias digitales y, en el proceso, ha surgido un nuevo conjunto de oportunidades para catalogar, indexar, procesar y mostrar el contenido editorial digital.
+            | Desde los modelos de publicación más populares hasta los más nuevos, se relacionan con la evolución de la tecnología en la #[i web]. La publicación digital en línea es una realidad en todas las industrias digitales y, en el proceso, ha surgido un nuevo conjunto de oportunidades para catalogar, indexar, procesar y mostrar el contenido editorial digital.
     
     p.mb-5.fw-bold Modelos de negocio para publicaciones digitales
 
@@ -84,18 +84,18 @@
           tr
             td(style="background-color: #FFD99D")
               ul(style="list-style-type: disc; margin-left: 1.1rem").px-4.px-5.py-4
-                li Venta directa ejemplares
-                li Acceso por suscripción
-                li Ingresos por publicidad
+                li Venta directa ejemplares.
+                li Acceso por suscripción.
+                li Ingresos por publicidad.
 
             td(style="background-color: #FFF4C6")
               ul(style="list-style-type: disc; margin-left: 1.1rem").px-4.px-5.py-4
-                li <em>Freemium/premium</em>
-                li Actualización permanente
-                li <em>Open Acces / Pay what you want</em>
-                li Financiación colectiva
-                li Contenidos parciales
-                li Contenidos personalizados
+                li <em>Freemium/premium</em>.
+                li Actualización permanente.
+                li <em>Open Acces / Pay what you want</em>.
+                li Financiación colectiva.
+                li Contenidos parciales.
+                li Contenidos personalizados.
 
     p.mb-5 Visualice el recurso que se presenta a continuación y conozca, con mayor profundidad, las particularidades y aspectos clave de los modelos de negocio para publicaciones digitales:
 
