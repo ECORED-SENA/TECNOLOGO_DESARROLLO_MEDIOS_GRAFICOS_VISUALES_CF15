@@ -51,7 +51,7 @@
 
           p.d-flex.flex-wrap.flex-md-nowrap(numero="5" titulo="Publicación digital en línea") 
             img(src="@/assets/curso/tema8/img-linea_t_8-5.png" style="max-width: 305px;").pe-0.me-md-4.my-4.my-md-0
-            | Desde los modelos de publicación más populares hasta los más nuevos, se relacionan con la evolución de la tecnología en la #[i web]. La publicación digital en línea es una realidad en todas las industrias digitales y, en el proceso, ha surgido un nuevo conjunto de oportunidades para catalogar, indexar, procesar y mostrar el contenido editorial digital.
+            span Desde los modelos de publicación más populares hasta los más nuevos, se relacionan con la evolución de la tecnología en la #[i web]. La publicación digital en línea es una realidad en todas las industrias digitales y, en el proceso, ha surgido un nuevo conjunto de oportunidades para catalogar, indexar, procesar y mostrar el contenido editorial digital.
     
     p.mb-5.fw-bold Modelos de negocio para publicaciones digitales
 
